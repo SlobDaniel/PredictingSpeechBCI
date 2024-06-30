@@ -7,6 +7,7 @@ Getting Started - preprocessing. The following files contain - in order - the pr
 3. merging_loop     - merging sub-* channels and space in a loop
 4. merging_merge    - merging the above described files to one file
 5. corr             - calculating correlations per participant and merging to the above descriped file
+6. clean            - drops irrelavant rows of data and applies **one-hot encoding to 'description' feature**
 
 Getting Started - building models. These files use the above described data to build the LR, SVM and RF classifiers: 
 1. models_thres     - building classifiers and evaluation metrics based on binary classification
