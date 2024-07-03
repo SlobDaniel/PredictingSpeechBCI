@@ -9,6 +9,8 @@ Getting Started - preprocessing. The following files contain - in order - the pr
 5. corr             - calculating correlations per participant and merging to the above descriped file
 6. clean            - drops irrelavant rows of data and applies **one-hot encoding to 'description' feature**
 
+The final dataframe 'wordprod_corr_thres' is used for analyses and predictions.
+
 Getting Started - building models. These files use the above described data to build the LR, SVM and RF classifiers: 
 1. models_thres     - building classifiers and evaluation metrics based on binary classification
 2. models_bin       - building classifiers and evaluation metrics based on multiclass classification
